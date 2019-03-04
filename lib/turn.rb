@@ -33,6 +33,6 @@ def turn(board)
   if (1..9).include?(idx) && valid_move?(board, idx)
     move(board, idx, 'X')
   else
-    turn(board)
+    # turn(board)
   end
 end
