@@ -25,3 +25,8 @@ def display_board(board)
     .join
   puts printed_board
 end
+
+def turn(board)
+  puts "Please enter 1-9:"
+  answer = gets.strip
+end
